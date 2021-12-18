@@ -1,0 +1,448 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.top_menu {
+    margin: 0;
+    background-color: #000;
+    padding: 30px 0;
+}
+
+.top_menu li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 35px;
+}
+
+.top_menu a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.top_menu a:hover {
+    color: #2a31f4;
+}
+
+header {
+    height: 700px;
+    width: 100%;
+    background-image: url(img/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.service {
+    background-color: #e4e4e7;
+    text-align: center;
+    padding: 30px 0 50px 0;
+}
+
+.service_info {
+    display: inline-block;
+    width: 30%;
+    margin: 0 2% 0 1%;
+}
+
+.fa-eye,
+.fa-heart {
+    font-size: 50px;
+    color: red;
+}
+
+.about h2 {
+    border-bottom: 1px solid gray;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.block_about {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.design {
+    background-image: url(img/bg/divider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.design h2 {
+    border-bottom: 1px solid #fff;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+}
+.brand h2 {
+    border-bottom: 1px solid grey;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+/*    color: #fff;*/
+}
+.iphone {
+    margin: auto;
+    padding-top: 30px;
+}
+
+.brand {
+    width: 60%;
+    margin: auto;
+}
+
+.brand h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.interaction {
+    background-image: url(img/bg/divider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.interaction > h2 {
+    border-bottom: 1px solid white;
+    width: 450px;
+    margin: auto;
+    /*text-align: center;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    /*color: white;*/
+}
+
+.headerTeam {
+    border-bottom: 1px solid gray;
+    width: 450px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.fotoTeam > img {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    padding: 20px 20px 20px 20px;
+    /*margin:auto;*/
+    /*display: block;*/
+}
+
+.team {
+    margin-top: 60px;
+    /*margin: auto;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotoTeam {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.central {
+    height: 460px;
+    /*margin-top: 100px;*/
+    background-color: #F5F5F5;
+    text-align: center;
+    /*margin-bottom: 100px;*/
+}
+
+.mac {
+    height: 360px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+.content {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: green;
+    border-radius: 7px;
+}
+
+.toDevelop {
+    height: 320px;
+    width: 100%;
+    background-image: url(img/bg/divider3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+    text-align: center;
+}
+
+.toDevelop > h2 {
+    border-bottom: 1px solid white;
+    width: 450px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.toDevelop > p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.portfolio{
+    width: 100%;
+    text-align: center;
+}
+.portfolio> h2 {
+    border-bottom: 1px solid gray;
+    width: 450px;
+    padding-top: 70px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.gallery {
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.folio{
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+}
+/* mini */
+.miniFootball {
+    height: 320px;
+    width: 100%;
+    background-image: url(img/bg/divider4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+    text-align: center;
+}
+
+.miniFootball> h2 {
+    border-bottom: 1px solid white;
+    width: 450px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.miniFootball > p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.story{
+    width: 100%;
+    text-align: center;
+ 
+}
+.story> h2 {
+    border-bottom: 1px solid gray;
+    width: 450px;
+    padding-top: 70px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.jaye {
+    width: 575px;
+    height: 450px;
+    display: flex;
+}
+.lampa {
+    width: 575px;
+    height: 450px;
+    display: flex;
+}
+.twoStory{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.row1{
+    width: 200px;
+    background-color: #2F2F2F;
+    color: #B2B2B2;
+}
+.row1>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+.row2>h3 {
+    font-size: xx-large;
+}
+.row2 {
+    width: 390px;
+    background-color: #F1F1F1;
+    text-align: left;
+    padding: 20px;
+}
+.usa {
+    height: 430px;
+    width: 100%;
+    margin-top: 90px;
+    background-image: url(img/bg/divider6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+    text-align: center;
+}
+
+.usa> h2 {
+    border-bottom: 1px solid white;
+    width: 450px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.social {
+    font-size: 25px;
+    /* padding: 5px; */
+    margin: 5px;
+    color: #4392D9;
+}
+a{
+    text-decoration: none;
+    color: #4392D9;
+}
+.contact a{
+    text-decoration: none;
+    color: #769AB5;
+}
+.lowerPart {
+    width: 100%;
+    color: #626262;
+}
+.lowerPart h2 {
+    border-bottom: 1px solid gray;
+    width: 450px;
+    padding-top: 70px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+
+}
+.contact,.newsletter,.support{
+    width: 360px;
+    height: 300px;
+    margin-bottom: 50px;
+    
+}
+form>input{
+    width: 290px;
+    height: 35px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.sign {
+    width: 65px;
+    height: 35px;
+    background-color: #5BB95D;
+    color: white;
+    border-radius: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    background-color: #2F2F2F;
+    color: white;
+    padding-top: 40px;
+}
+.lowerPart h3 {
+    font-size: xx-large;
+} 
